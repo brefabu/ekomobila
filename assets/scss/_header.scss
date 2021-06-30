@@ -1,0 +1,52 @@
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 50px;
+    height: 75px;
+    color: #000;
+    border-bottom: 1px solid grey;
+
+    & .header-title {
+        position: relative;
+        height: fit-content;
+        width: fit-content;
+        font-weight: lighter;
+        font-size: 32px;
+        margin: auto auto auto 0;
+        padding: 2.5px 10px 2.5px 10px;
+        border: 2px solid black;
+        user-select: none;
+    }
+
+    & .header-choices {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 25px;
+        padding: 15px 0;
+        color: #000;
+
+        & a {
+            text-decoration: none;
+        }
+
+        & .header-choice {
+            cursor: pointer;
+            color: grey;
+            font-size: 24px;
+            font-weight: lighter;
+            transition: 0.5s ease;
+            transition-property: color, border;
+            -webkit-transition-property: color, border;
+            
+            &:hover {
+                color: #000;
+                border-bottom: 1px solid #000;
+            }
+        }
+    }
+}

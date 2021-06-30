@@ -1,0 +1,23 @@
+.slider-content {
+    width: 50%;
+}
+
+.slide-show .slide {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.slide-selector .slide {
+    max-height: 150px;
+    padding: 10px;
+}
+
+.slide-selector {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #738678;
+}
